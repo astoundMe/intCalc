@@ -1,90 +1,39 @@
 @echo off
-TITLE intCalc v1.0
-REM You can exit the program at any prompt by typing 'exit' or 'e'
+COLOR 0A
+TITLE intCalc v1.1
+MODE CON cols=61 lines=15
 
 :MAIN
-CLS
-ECHO:
-ECHO:
-echo                      ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-echo                      ::                                                                  ::
-echo                      ::                            intCalc 1.0                           ::
-echo                      ::      "The only calculator that uses integers exclusively!"       ::
-echo                      ::                                                                  ::
-echo                      ::                     Addition        -    "+"                     ::
-echo                      ::                     Subtraction     -    "-"                     ::
-echo                      ::                     Multiplication  -    "*"                     ::
-echo                      ::                     Division        -    "/"                     ::
-echo                      ::                     Modulation      -    "%%"                     ::
-echo                      ::                                                                  ::
-echo                      ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-ECHO:
-SET /p num1=First Number-$ 
-	IF /I %num1% == exit GOTO :EOF
-	IF /I %num1% == e GOTO :EOF
+	CLS
+	echo  :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+	echo  ::                                                       ::
+	echo  ::                       intCalc 1.0                     ::
+	echo  :: "The only calculator that uses integers exclusively!" ::
+	echo  ::                                                       ::
+	echo  ::                Addition        -    "+"               ::
+	echo  ::                Subtraction     -    "-"               ::
+	echo  ::                Multiplication  -    "*"               ::
+	echo  ::                Division        -    "/"               ::
+	echo  ::                Modulo          -    "%%"               ::
+	echo  ::                                                       ::
+	echo  :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+	ECHO:
+	SET /p _IP=EQUATION-$ 
 
-
-:MAIN-2
-CLS
-ECHO:
-ECHO:
-echo                      ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-echo                      ::                                                                  ::
-echo                      ::                                                                  ::
-echo                      ::        [NUM1]=%num1%                                [NUM2]=%num2%        ::
-echo                      ::                                                                  ::
-echo                      ::                     Addition        -    "+"                     ::
-echo                      ::                     Subtraction     -    "-"                     ::
-echo                      ::                     Multiplication  -    "*"                     ::
-echo                      ::                     Division        -    "/"                     ::
-echo                      ::                                                                  ::
-echo                      ::                                                                  ::
-echo                      ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-ECHO:
-SET /p op=What Operation-$ 
-	IF /I %op% == exit GOTO :EOF
-	IF /I %op% == e GOTO :EOF
-
-
-CLS
-ECHO:
-ECHO:
-echo                      ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-echo                      ::                                                                  ::
-echo                      ::                                                                  ::
-echo                      ::        [NUM1]=%num1%                  %op%                              ::
-echo                      ::                                                                  ::
-echo                      ::                     Addition        -    "+"                     ::
-echo                      ::                     Subtraction     -    "-"                     ::
-echo                      ::                     Multiplication  -    "*"                     ::
-echo                      ::                     Division        -    "/"                     ::
-echo                      ::                                                                  ::
-echo                      ::                                                                  ::
-echo                      ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-ECHO:
-SET /p num2=Second Number-$ 
-	IF /I %num2% == exit GOTO :EOF
-	IF /I %num2% == e GOTO :EOF
-GOTO :SOL
-
-
-:SOL
-SET /a sol=%num1% %op% %num2%
-CLS
-ECHO:
-ECHO:
-echo                      ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-echo                      ::                                                                  ::
-echo                      ::                            intCalc 1.0                           ::
-echo                      ::      "The only calculator that uses integers exclusively!"       ::
-echo                      ::                                                                  ::
-echo                      ::                                                                  ::
-echo                      ::                                                                  ::
-echo                      ::                         %num1% %op% %num2% = %sol%                          ::
-echo                      ::                                                                  ::
-echo                      ::                                                                  ::
-echo                      ::                                                                  ::
-echo                      ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-ECHO:
-pause
-GOTO :MAIN
+	SET /a _SOL=%_IP%
+	CLS
+	echo  :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+	echo  ::                                                       ::
+	echo  ::                       intCalc 1.0                     ::
+	echo  :: "The only calculator that uses integers exclusively!" ::
+	echo  ::                                                       ::
+	echo  ::                                                       ::
+	echo  ::                        %_IP% = %_SOL%                      ::
+	echo  ::                                                       ::
+	echo  ::                                                       ::
+	echo  ::                                                       ::
+	echo  ::                                                       ::
+	echo  :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+	ECHO:
+	pause
+	GOTO :MAIN
