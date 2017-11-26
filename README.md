@@ -7,7 +7,7 @@
   
   
 
-# intCalc v1.1
+# intCalc 1.1
 > "The only calculator that uses integers exclusively!"
 
 A calculator scripted in Batch.  
