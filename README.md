@@ -1,12 +1,12 @@
-<p>
- /--------------------------------------------\  
-|      Expect development to end shortly.      |  
-|  Purely a test for myself as I learn Batch.  |  
- \--------------------------------------------/  
-</p>
+```text
+ /==============================================\  
+ |      Expect development to end shortly.      |
+ |  Purely a test for myself as I learn Batch.  | 
+  \============================================/  
+```
 
 # intCalc v1.0
-"The only calculator that uses integers exclusively!"
+> "The only calculator that uses integers exclusively!"
 
 A calculator scripted in Batch to test myself.  
 So far I have a nice little menu that needs some fixing and a funny motto.
