@@ -17,8 +17,8 @@ With better input, now all you have to do is type in the equation instead of eac
   
    
    
-### Official Changelog 4 v1.1
-  - Special exit commands are no longer usable. They conflict with the better input system. No idea why, honestly.
+### Official Changelog - v1.1.dev
+  - Special exit commands have been reduced to just "e".
   - Customized interface. Opens window in specific size and changes background and text color to black and green.
   - Better Input! So long to typing in num1, op, and num2 individually. Now you can just type the whole equation!
   - Improved readability of code by tabbing all commands under a tag.
