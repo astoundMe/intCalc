@@ -5,7 +5,7 @@
                               \----------------------------------------------/  
 ```  
   
-  
+ 
 
 # intCalc 1.1
 > "The only calculator that uses integers exclusively!"
