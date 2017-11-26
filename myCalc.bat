@@ -1,13 +1,13 @@
 @echo off
 COLOR 0A
-TITLE intCalc v1.1
+TITLE intCalc 1.1
 MODE CON cols=61 lines=15
 
 :MAIN
 	CLS
 	echo  :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 	echo  ::                                                       ::
-	echo  ::                       intCalc 1.0                     ::
+	echo  ::                       intCalc 1.1                     ::
 	echo  :: "The only calculator that uses integers exclusively!" ::
 	echo  ::                                                       ::
 	echo  ::                Addition        -    "+"               ::
@@ -24,7 +24,7 @@ MODE CON cols=61 lines=15
 	CLS
 	echo  :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 	echo  ::                                                       ::
-	echo  ::                       intCalc 1.0                     ::
+	echo  ::                       intCalc 1.1                     ::
 	echo  :: "The only calculator that uses integers exclusively!" ::
 	echo  ::                                                       ::
 	echo  ::                                                       ::
@@ -35,5 +35,5 @@ MODE CON cols=61 lines=15
 	echo  ::                                                       ::
 	echo  :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 	ECHO:
-	pause
+	PAUSE
 	GOTO :MAIN
