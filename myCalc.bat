@@ -1,6 +1,6 @@
 @echo off
 COLOR 0A
-TITLE intCalc 1.1
+TITLE intCalc 1.1.dev
 MODE CON cols=61 lines=15
 
 :MAIN
