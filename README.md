@@ -1,9 +1,11 @@
 ```text
- /==============================================\  
- |      Expect development to end shortly.      |
- |  Purely a test for myself as I learn Batch.  | 
-  \============================================/  
-```
+                              /----------------------------------------------\  
+                              |      Expect development to end shortly.      |
+                              |  Purely a test for myself as I learn Batch.  | 
+                              \----------------------------------------------/  
+```  
+  
+  
 
 # intCalc v1.0
 > "The only calculator that uses integers exclusively!"
